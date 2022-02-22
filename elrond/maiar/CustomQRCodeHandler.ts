@@ -1,7 +1,6 @@
 import qrcodeOptions from './qrcode-style';
 import QRCodeStyling from 'qr-code-styling';
 import { IQRCodeHandler } from 'vue-erdjs';
-require('./assets/elrond-logo.png');
 
 class CustomQRCodeHandler implements IQRCodeHandler {
     private qrcode = new QRCodeStyling(Object.assign(qrcodeOptions));

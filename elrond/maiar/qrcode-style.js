@@ -1,7 +1,9 @@
+const img = require('@/static/elrond-logo.png');
+
 export default {
   width: 300,
   height: 300,
-  image: '/vue-erdjs/elrond-logo.png',
+  image: img,
   data: 'https://elrondtrees.com',
   type: 'svg',
   margin: 0,
